@@ -1,0 +1,11 @@
+{
+   "type": "postgres",
+   "host": "172.18.0.1",
+   "port": 5432,
+   "username": "admin",
+   "password": "admin",
+   "database": "a11y-db",
+   "synchronize": true,
+   "logging": true,
+   "entities": ["dist/entities/**.entity.js"]
+}
